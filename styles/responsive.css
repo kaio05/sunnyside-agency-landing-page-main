@@ -1,0 +1,121 @@
+@media screen and (min-width: 1000px) {
+    header {
+        background-image: url(../images/desktop/image-header.jpg);
+    }
+
+    section.transform, section.stand-out {
+        display: flex;
+    }
+
+    section.transform img, section.stand-out img {
+        display: none;
+    }
+
+    section.transform .text-container, section.stand-out .text-container {
+        width: 50%;
+    }
+    
+    section.transform .bg-image, section.stand-out .bg-image {
+        width: 50%;
+        height: 100;
+        background-size: cover;
+        background-position: center;
+    } 
+
+    section.transform .bg-image {
+        background-image: url(../images/desktop/image-transform.jpg);
+    }
+
+    section.stand-out .bg-image {
+        background-image: url(../images/desktop/image-stand-out.jpg);
+    }
+
+    section.transform {
+        flex-direction: row-reverse;
+    }
+
+    section .text-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 4rem 8% 4rem 10%;
+        text-align: left;
+    }
+
+    section .text-container a.link::after {
+        left: 0%;
+        transform: translate(-2%);
+    }
+
+    h2, p {
+        margin-bottom: 2.5rem;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+
+    .grid section.graphic-design {
+        background-image: url(../images/desktop/image-graphic-design.jpg);
+    }
+
+    .grid section.photography {
+        background-image: url(../images/desktop/image-photography.jpg);
+    }
+
+    section.client-testimonials h2, .grid section .text-container {
+        text-align: center;
+    }
+
+    section.client-testimonials .text-container {
+        padding: 4rem 1rem;
+    }
+
+    .clients {
+        display: flex;
+        width: 100%;
+    }
+
+    .client {
+        height: 500px;
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        text-align: center;
+    }
+
+    section.gallery {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    .menu-toggler {
+        display: none;
+    }
+
+    nav ul.menu {
+        display: flex;
+        list-style: none;
+        align-items: center;
+        position: static;
+    }
+
+    nav ul.menu a {
+        color: white;
+        font-size: .9rem;
+        padding: 0 1rem;
+        background: transparent;
+    }
+
+    nav ul.menu a.button-primary {
+        background: white;
+        margin: 0 10px 0 20px;
+    }
+
+    nav ul.menu a.button-primary:hover {
+        background: rgba(255, 255, 255, 0.331);
+        color: white;
+    }
+}
