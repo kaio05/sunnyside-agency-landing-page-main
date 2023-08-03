@@ -28,7 +28,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here]()
-- Live Site URL: [Add live site URL here](https://kaio05.github.io/sunnyside-agency-landing-page-main/)
+- Live Site URL: https://kaio05.github.io/sunnyside-agency-landing-page-main/
 
 ## My process
 
